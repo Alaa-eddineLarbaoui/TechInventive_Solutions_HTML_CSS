@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffffff;
+
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+}
+    
+    
+
+header>button{
+
+    background-color: blue;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 5PX 10px;
+  
+}
+
+
+
+
+
+
+#s1{
+    width: 100%;
+    height: 450px;
+    background: url(./icon/mer.jpg) top right/cover;
+
+}
+#s1 p{
+    position:;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium';
+}
+#s1 button{
+    background-color: blue;
+    color: #ffffff;
+    border: none;
+    border-radius: 1px;
+    font-size: 13px;
+    font-weight: 300;
+    padding: 0PX 2px;
+}
+#s1 input{
+    color: black;
+    background-color: #ffffff;
+    border: none;
+}
+
+#s2 
