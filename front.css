@@ -9,14 +9,13 @@ body{
 
 }
 
+/*HEDEAR*/
 
 header{
     display: flex;
     justify-content: space-between;
-    padding: 15px 10px;
+    padding: 15px 50px;
 }
-    
-    
 
 header>button{
 
@@ -26,39 +25,130 @@ header>button{
     border-radius: 3px;
     font-size: 13px;
     font-weight: 600;
-    padding: 5PX 10px;
+    padding: 5px 10px;
   
 }
 
-
-
-
-
+/* SECTION 1 :  */
 
 #s1{
+    background: url(./icon/mer1.jpg)no-repeat top right/cover;
     width: 100%;
-    height: 450px;
-    background: url(./icon/mer.jpg) top right/cover;
-
+    height: 600px;
+   
 }
 #s1 p{
-    position:;
+    text-align: center;
     color: #ffffff;
     font-family: 'Franklin Gothic Medium';
+    margin: 20px;
+    font-size: 30px;
 }
-#s1 button{
-    background-color: blue;
+ #s1 button{
+    background-color: #121deb;
     color: #ffffff;
     border: none;
-    border-radius: 1px;
+    border-radius: 3px;
     font-size: 13px;
-    font-weight: 300;
-    padding: 0PX 2px;
+    font-weight: 600;
+    padding: 8PX 15px;
+    margin-left: 10px;
+}
+#s1>button :hover{
+    color: bisque;
+    background:red;
+    box-shadow: 0 0 10PX #017bff ;
+
 }
 #s1 input{
+    margin-bottom: 50px;
     color: black;
     background-color: #ffffff;
     border: none;
+    padding: 8px 10px;
+    width: 300px;
+    border-radius: 3px;
+
+} 
+
+#s1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column
+
 }
 
-#s2 
+
+/*SECTION 2 */
+
+#s2{
+    width: 100%;
+    padding: 70px;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    font-family: Arial;
+    
+    
+}
+#s2 >div >p {
+    color: #b0bebe;
+    font-family: ' Arial';
+    padding: 10PX 0PX 10PX ;
+    font-size: 14px;
+
+
+}
+#s2 > div{
+    width: 300px;
+    padding: 40px;
+}
+
+#s2 > div >img{
+    width: 90px;
+    height:90px;
+}
+#s2 > div > h3{
+    padding: 2px 5PX 5px;
+}
+
+
+
+
+/*FOTTER*/
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    font-family: Arial;
+    flex-direction: column;
+    background-color: #CDD3D8;
+    padding: 60px 20PX 30PX 20PX ;
+    gap: 10px;
+}
+footer > div {
+    width: 100px;
+}
+footer .media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+   
+
+}
+footer .media .card img{
+    width: 30px;
+    height: 30px;
+
+}
+footer p{
+    font-family: Georgia;
+    font-weight: bolder;
+    font-size: 10px;
+}
